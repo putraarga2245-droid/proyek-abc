@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyboard ABC Interaktif</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Keyboard ABC</h2>
+  <!-- Tambahkan id="inputBox" agar mudah dipanggil di JavaScript -->
+  <input type="text" id="inputBox" placeholder="Ketik sesuatu..."> 
+  <br><br>
+
+  <div id="tombol">
+    <!-- Tombol Huruf A - Z -->
+    <button class="key" data-val="A">A</button>
+    <button class="key" data-val="B">B</button>
+    <button class="key" data-val="C">C</button>
+    <button class="key" data-val="D">D</button>
+    <button class="key" data-val="E">E</button>
+    <button class="key" data-val="F">F</button>
+    <button class="key" data-val="G">G</button>
+    <button class="key" data-val="H">H</button>
+    <button class="key" data-val="I">I</button>
+    <button class="key" data-val="J">J</button>
+    <button class="key" data-val="K">K</button>
+    <button class="key" data-val="L">L</button>
+    <button class="key" data-val="M">M</button>
+    <button class="key" data-val="N">N</button>
+    <button class="key" data-val="O">O</button>
+    <button class="key" data-val="P">P</button>
+    <button class="key" data-val="Q">Q</button>
+    <button class="key" data-val="R">R</button>
+    <button class="key" data-val="S">S</button>
+    <button class="key" data-val="T">T</button>
+    <button class="key" data-val="U">U</button>
+    <button class="key" data-val="V">V</button>
+    <button class="key" data-val="W">W</button>
+    <button class="key" data-val="X">X</button>
+    <button class="key" data-val="Y">Y</button>
+    <button class="key" data-val="Z">Z</button>
+
+    <!-- Tombol Khusus: Spasi & Hapus -->
+    <br><br>
+    <button id="btnSpace" class="special-key">Spasi</button>
+    <button id="btnDelete" class="special-key">Hapus</button>
+  </div>
+
+  <!-- Script JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
